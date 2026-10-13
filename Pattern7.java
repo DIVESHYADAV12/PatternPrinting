@@ -21,5 +21,11 @@ class Pattern7{
             }
             System.out.println();
         }
+        for(int row=1;row<=n;row++){
+            for(int col=n;col>row;col--){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
     }
 }
